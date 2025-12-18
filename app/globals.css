@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F7EFE9; /* Nude */
+  --foreground: #3C3C3B; /* Carbón */
+  --primary: #C5A059;    /* Dorado */
+  --accent: #D9B9B0;     /* Rosa Viejo */
+  --radius: 0.75rem;
+
+  /* Shadcn/UI conventions often need these too, mapping them */
+  --card: #F7EFE9;
+  --card-foreground: #3C3C3B;
+  --popover: #F7EFE9;
+  --popover-foreground: #3C3C3B;
+  --muted: #EDE5DE; /* Slightly darker nude for muted */
+  --muted-foreground: #8C8C8B;
+  --border: #D9B9B0; /* Using accent for borders */
+  --input: #D9B9B0;
+  --ring: #C5A059;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+  
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

@@ -1,0 +1,15 @@
+{
+  "Hero": {
+    "title": "Recupera tu plenitud",
+    "subtitle": "Terapia de Reemplazo Hormonal y Ginecología Integrativa",
+    "cta_program": "Programa TRH",
+    "cta_general": "Consulta General"
+  },
+  "Auth": {
+    "login": "Iniciar Sesión"
+  },
+  "Common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error"
+  }
+}
