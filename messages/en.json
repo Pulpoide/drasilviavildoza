@@ -73,7 +73,7 @@
             },
             "is_bioidentical": {
                 "question": "Are all hormones 'bioidentical'?",
-                "answer": "Not necessarily. We design a 'bespoke treatment' that may combine bioidentical hormones with specific pharmaceuticals to optimize your metabolism based on your labs."
+                "answer": "Not necessarily. We design a 'bespoke treatment' that may combine bioidentical hormones with specific pharmaceuticals to optimize your metabolism based on your test results."
             },
             "benefits": {
                 "question": "What real benefits can I expect?",
