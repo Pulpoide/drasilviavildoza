@@ -1,1 +1,242 @@
-{}
+{
+    "Common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "Auth": {
+        "login": "Login"
+    },
+    "Navbar": {
+        "menu": {
+            "bio": "Bio",
+            "trh": "HRT Program",
+            "faq": "Common Questions"
+        },
+        "cta": "Schedule Meet",
+        "languages": {
+            "es": "Español",
+            "pt": "Português",
+            "en": "English"
+        }
+    },
+    "TopBanner": {
+        "next_location": "Next placement session: {location}",
+        "dates": "Booking open for {dates}",
+        "cta": "Reserve my spot now"
+    },
+    "Hero": {
+        "title": "Reclaim the energy you thought was gone",
+        "subtitle": "Integrative Gynecology & Hormonal Wellness",
+        "description": "Because surviving is not the same as living with vitality. Precision hormonal medicine for men and women.",
+        "cta_program": "Apply to HRT Program",
+        "cta_general": "Learn more"
+    },
+    "Bio": {
+        "title": "30 years of science, a lifetime of resilience",
+        "intro": "For three decades, my life was dedicated to accompanying the miracle of birth as an OB-GYN. Bringing thousands of lives into the world taught me that women's health is a path of constant evolution, and that well-being should not stop upon reaching maturity.",
+        "personal_story": "My path was not linear. As a multi-time breast cancer survivor, I experienced firsthand the fear, uncertainty, and profound impact that hormonal changes have on our identity and energy. I understood that surviving is only the first step; the true goal is to regain fulfillment and feel in control of our bodies again.",
+        "method_title": "The Method: 'A Bespoke Treatment'",
+        "method_desc": "Today, my practice focuses on Longevity Medicine and Hormone Replacement Therapy (HRT). I do not believe in standard solutions. Each patient receives what I call a 'bespoke treatment': a strategically designed plan based on profound clinical analysis. We combine high-quality hormones with specific pharmaceuticals to ensure each organism receives exactly what it needs to balance safely and effectively.",
+        "promise": "My purpose is to help you rediscover your vitality. Hormonal balance not only improves energy, libido, and sleep quality; it is an investment in your cardiovascular, bone, and cognitive health for the years ahead. Whether in Argentina or Brazil, my commitment is to accompany you through your most powerful stage with science, safety, and empathy."
+    },
+    "TRHInfo": {
+        "title": "Precision Medicine: Your Bespoke Treatment",
+        "description": "Hormone Replacement Therapy is not a standard product. It is a molecular restoration designed exclusively for your biology, using hormones identical to those your body recognizes.",
+        "benefits": {
+            "energy": {
+                "title": "Vital Energy",
+                "desc": "Regain physical strength and mental clarity. Say goodbye to brain fog and chronic exhaustion."
+            },
+            "rest": {
+                "title": "Restorative Sleep",
+                "desc": "Regulate your rest cycles and stabilize your mood. Wake up with purpose and deep rest."
+            },
+            "intimacy": {
+                "title": "Desire & Fulfillment",
+                "desc": "Restore libido and sexual health. Reclaim the connection with your body and your partner naturally."
+            },
+            "protection": {
+                "title": "Future Protection",
+                "desc": "An investment in longevity: protect your bone, cardiovascular, and cognitive health for the years to come."
+            }
+        }
+    },
+    "Faqs": {
+        "title": "Frequently Asked Questions",
+        "description": "Clear your doubts about HRT and the path to your well-being.",
+        "items": {
+            "what_is_trh": {
+                "question": "What exactly is HRT and the famous 'Chip'?",
+                "answer": "HRT consists of restoring hormonal levels that decrease with age. The 'chip' or pellet is a small implant that releases these hormones constantly for 6 to 9 months."
+            },
+            "is_bioidentical": {
+                "question": "Are all hormones 'bioidentical'?",
+                "answer": "Not necessarily. We design a 'bespoke treatment' that may combine bioidentical hormones with specific pharmaceuticals to optimize your metabolism based on your labs."
+            },
+            "benefits": {
+                "question": "What real benefits can I expect?",
+                "answer": "Patients report profound improvements in energy, libido, and sleep quality, along with long-term cardiovascular and bone protection."
+            },
+            "cancer_history": {
+                "question": "I have a history of cancer, can I undergo treatment?",
+                "answer": "As a survivor and specialist, Dr. Silvia evaluates each case with rigorous oncological criteria. Under expert supervision, HRT can be a safe option to reclaim your quality of life."
+            },
+            "procedure": {
+                "question": "What is the placement procedure like?",
+                "answer": "It is an in-office procedure taking less than 15 minutes with local anesthesia. It requires no stitches, and you can resume normal activities almost immediately."
+            },
+            "why_labs": {
+                "question": "Why do I need prior lab analysis?",
+                "answer": "Labs are the scientific map that allows us to define your exact dosage. We don't install a standard product; we balance your system safely based on your bloodwork."
+            }
+        }
+    },
+    "ProgramPage": {
+        "title": "HRT Program",
+        "description": "Complete this form to evaluate your case. Dr. Silvia will analyze your information to determine the best professional treatment path."
+    },
+    "ApplyForm": {
+        "steps": {
+            "basics": {
+                "title": "Personal",
+                "desc": "Tell us about yourself"
+            },
+            "medical": {
+                "title": "Medical Context",
+                "desc": "Your current health"
+            },
+            "history": {
+                "title": "Clinical",
+                "desc": "Your medical history"
+            },
+            "labs": {
+                "title": "Studies",
+                "desc": "Recent lab work"
+            },
+            "commitment": {
+                "title": "Commitment",
+                "desc": "Your health investment"
+            }
+        },
+        "fields": {
+            "name": "Full name",
+            "email": "Email",
+            "age": "Age",
+            "gestas": "Children (Gestations)",
+            "whatsapp": "WhatsApp",
+            "location": "Where are you contacting us from?",
+            "reason": "Reason for consultation",
+            "symptoms": "Main symptoms",
+            "uterus": "Do you have a uterus?",
+            "app": "PMH (Medications/Pathologies)",
+            "apf": "FH (Family History)",
+            "cancer": "FamCa (Cancer in the family)",
+            "surgical": "PSH (Prior Surgeries)",
+            "allergies": "Allergies",
+            "investment_text": "I understand this is private care and I am {sex, select, female {willing} male {willing} other {willing}} to invest in my health.",
+            "commitment": "What is your level of commitment?"
+        },
+        "options": {
+            "select": "Select country...",
+            "ready": "I am {sex, select, female {ready} male {ready} other {ready}} to start now",
+            "doubts": "I have some doubts",
+            "info": "I just want information",
+            "app": "Example: I take metformin 500mg morning and night",
+            "apf": "Diabetes in the family, Hypertension, etc.",
+            "cancer": "Cancer history in the family",
+            "surgical": "Prior surgeries",
+            "allergies": "Allergies"
+        },
+        "success": {
+            "title": "Application Received!",
+            "msg": "Thank you for trusting us. Dr. Silvia will analyze your medical history in detail to evaluate your case.",
+            "next_steps_msg": "We will contact you soon via WhatsApp."
+        },
+        "errors": {
+            "required": "This field is required",
+            "invalid_phone": "Invalid number for the selected country"
+        },
+        "common": {
+            "yes": "Yes",
+            "no": "No",
+            "next": "Next",
+            "prev": "Back",
+            "finish": "Finish Application",
+            "upload_btn": "Upload labs (PDF/JPG)"
+        }
+    },
+    "Footer": {
+        "brand": "Dr. Silvia Vildoza",
+        "tagline": "Integrative Gynecology & Hormonal Wellness. Boutique medicine designed for your fulfillment.",
+        "links_title": "Navigation",
+        "nav": {
+            "program": "HRT Program",
+            "about": "About Dr. Silvia",
+            "faq": "Common Questions",
+            "admin_access": "Medical Access"
+        },
+        "contact_title": "Patient Care",
+        "cari_cta": "Chat with Secretary (Cari)",
+        "cari_message": "Hi Cari, I'm coming from Dr. Silvia's website and would like to inquire about an appointment...",
+        "agenda_title": "International Agenda",
+        "next_date": "Next placement session",
+        "location_info": "{location} — {dates}",
+        "rights": "© {year} Dr. Silvia Vildoza. All rights reserved.",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "specialty_tag": "Longevity Medicine"
+    },
+    "PrivacyPage": {
+        "title": "Privacy Policy & Data Custody",
+        "lastUpdate": "Last update",
+        "section1": {
+            "title": "1. Ethical Commitment & Confidentiality",
+            "content": "For Dr. Silvia Vildoza, the privacy of your health assets is a non-negotiable pillar of medical practice. Sensitive health data collected for the clinical evaluation of Hormone Replacement Therapy (HRT) is managed under the highest standards of bioethics, ensuring professional secrecy and absolute respect for your privacy."
+        },
+        "section2": {
+            "title": "2. Data Asset Management",
+            "content": "To design a surgically precise and personalized longevity protocol, we process the following information:",
+            "items": {
+                "personal": "Biographical Identification: Full name and direct contact channels (WhatsApp and Email) for care coordination.",
+                "medical": "Evolutionary Medical Context: Gynecological history, current symptoms, and relevant clinical history for hormonal balance.",
+                "files": "Diagnostic Evidence: Lab analysis and complementary studies securely uploaded to our platform."
+            }
+        },
+        "section3": {
+            "title": "3. Security & Technology Infrastructure",
+            "content": "Your information resides in a cutting-edge infrastructure designed for medical data protection. We use encrypted storage via Supabase and optimized deployment through Vercel. We implement restricted access security policies (RLS) ensuring only authorized clinical personnel can interact with your sensitive records."
+        },
+        "section4": {
+            "title": "4. Rights of the Data Subject",
+            "content": "You retain sovereignty over your information at all times. You may exercise your rights to access, rectification, portability, or revocation of consent, requesting the definitive removal of your records from our active database when deemed appropriate."
+        },
+        "contact": {
+            "title": "Privacy Care Center",
+            "description": "If you wish to exercise your rights or require clarification on how we handle your medical information, our official WhatsApp channel is available for direct and personalized management."
+        }
+    },
+    "TermsPage": {
+        "title": "Terms and Conditions of Service",
+        "lastUpdate": "Last update",
+        "sections": {
+            "general": {
+                "title": "1. Scope of Boutique Medicine",
+                "content": "Medical services provided by Dr. Silvia Vildoza include high-level consultancy, integral diagnosis, and evolutionary follow-up of Hormone Replacement Therapy (HRT). This platform is the gateway to 'bespoke' medicine based on longevity science and the optimization of hormonal well-being."
+            },
+            "appointments": {
+                "title": "2. Digital Consultations & Cancellation Protocol",
+                "content": "Clinical sessions are conducted via Google Meet, ensuring a professional telemedicine environment. Due to the exclusivity of each slot, appointments must be rescheduled with a minimum of 48 hours' notice. No-shows without prior notice or cancellations outside this period are non-refundable, recognizing the professional time reserved for your personalized care."
+            },
+            "medical": {
+                "title": "3. Responsibility & Clinical Rigor",
+                "content": "Excellence in treatment depends on diagnostic precision. Presentation of requested lab analysis is a mandatory condition before any prescription. The truthfulness and completeness of the information declared in the application form are the sole responsibility of the patient, being fundamental to ensuring the clinical safety of the process."
+            }
+        },
+        "footer_note": {
+            "title": "Consent for Care",
+            "description": "By proceeding with your application and scheduling, you declare understanding that HRT is a dynamic balance process requiring your active commitment, strict compliance with indicated protocols, and attendance at periodic check-ups to ensure optimal results for your health."
+        }
+    }
+}

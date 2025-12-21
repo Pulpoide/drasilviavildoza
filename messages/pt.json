@@ -1,1 +1,242 @@
-{}
+{
+    "Common": {
+        "loading": "Carregando...",
+        "error": "Ocorreu um erro",
+        "yes": "Sim",
+        "no": "Não"
+    },
+    "Auth": {
+        "login": "Iniciar Sessão"
+    },
+    "Navbar": {
+        "menu": {
+            "bio": "Bio",
+            "trh": "Programa TRH",
+            "faq": "Perguntas Frequentes"
+        },
+        "cta": "Agendar Meet",
+        "languages": {
+            "es": "Español",
+            "pt": "Português",
+            "en": "English"
+        }
+    },
+    "TopBanner": {
+        "next_location": "Próxima jornada de aplicação: {location}",
+        "dates": "Agenda aberta para {dates}",
+        "cta": "Reservar minha vaga agora"
+    },
+    "Hero": {
+        "title": "Recupere a energia que você acreditou ter perdido",
+        "subtitle": "Ginecologia Integral e Bem-Estar Hormonal",
+        "description": "Porque sobreviver não é o mesmo que viver com plenitude. Medicina hormonal de precisão para homens e mulheres.",
+        "cta_program": "Aplicar ao Programa TRH",
+        "cta_general": "Ver benefícios"
+    },
+    "Bio": {
+        "title": "Mais de 30 anos de ciência, uma vida de resiliência",
+        "intro": "Durante três décadas, minha vida foi dedicada a acompanhar o milagre do nascimento como ginecologista obstetra. Traer milhares de vidas ao mundo me ensinou que a saúde da mulher é um caminho de evolução constante, e que o bem-estar não deve parar ao chegar à maturidade.",
+        "personal_story": "Meu caminho não foi linear. Como sobrevivente de câncer de mama em várias ocasiões, experimentei na pele o medo, a incerteza e o impacto profundo que as mudanças hormonais têm sobre nossa identidade e energia. Entendi que sobreviver é apenas o primeiro passo; o verdadeiro objetivo é recuperar a plenitude e voltarmos a ser donas do nosso próprio corpo.",
+        "method_title": "O Método: 'Um Traje Sob Medida'",
+        "method_desc": "Hoje, minha prática se concentra na Medicina de Longevidade e na Terapia de Reposição Hormonal (TRH). Não acredito em soluções padrão. Cada paciente recebe o que chamo de 'traje sob medida': um tratamento desenhado estrategicamente a partir de análises clínicas profundas. Combinamos hormônios de alta qualidade com fármacos específicos para garantir que cada organismo receba exatamente o que precisa para se equilibrar de forma segura e eficaz.",
+        "promise": "Meu propósito é ajudar você a redescubrir sua vitalidade. O equilíbrio hormonal não apenas melhora a energia, a libido e a qualidade do sono; é um investimento na sua saúde cardiovascular, óssea e cognitiva para os anos que virão. Seja na Argentina ou no Brasil, meu compromisso é acompanhar você para viver sua etapa mais poderosa com ciência, segurança e empatia."
+    },
+    "TRHInfo": {
+        "title": "Medicina de Precisão: Seu Traje Sob Medida",
+        "description": "A Terapia de Reposição Hormonal não é um produto padrão. É uma restauração molecular desenhada exclusivamente para sua biologia, utilizando hormônios idênticos aos que seu corpo reconhece.",
+        "benefits": {
+            "energy": {
+                "title": "Energia Vital",
+                "desc": "Recupere a força física e a clareza mental. Diga adeus à névoa mental e ao esgotamento crônico."
+            },
+            "rest": {
+                "title": "Sono Reparador",
+                "desc": "Regule seus ciclos de descanso e estabilize o humor. Volte a dormir profundamente e acorde com propósito."
+            },
+            "intimacy": {
+                "title": "Desejo e Plenitude",
+                "desc": "Restaure a libido e a saúde sexual. Recupere a conexão com seu corpo e seu parceiro de forma natural."
+            },
+            "protection": {
+                "title": "Proteção para o Futuro",
+                "desc": "Um investimento em longevidade: proteja sua saúde óssea, cardiovascular e cognitiva para os próximos anos."
+            }
+        }
+    },
+    "Faqs": {
+        "title": "Perguntas Frequentes",
+        "description": "Esclareça suas dúvidas sobre a TRH e o caminho para o seu bem-estar.",
+        "items": {
+            "what_is_trh": {
+                "question": "O que é exatamente a TRH e o famoso 'Chip'?",
+                "answer": "A TRH consiste em restaurar os níveis hormonais que diminuem com a idade. O 'chip' ou pellet é um pequeno implante que libera esses hormônios de forma constante durante 6 a 9 meses."
+            },
+            "is_bioidentical": {
+                "question": "Todos os hormônios são 'bioidênticos'?",
+                "answer": "Não necessariamente. Desenhamos um 'traje sob medida' que pode combinar hormônios bioidênticos com fármacos específicos para otimizar seu metabolismo de acordo com seus exames."
+            },
+            "benefits": {
+                "question": "Quais benefícios reais posso esperar?",
+                "answer": "Os pacientes relatam melhoras profundas na energia, libido e qualidade do sono, além de proteção cardiovascular e óssea a longo prazo."
+            },
+            "cancer_history": {
+                "question": "Tenho histórico de câncer, posso realizar o tratamento?",
+                "answer": "Como sobrevivente e especialista, a Dra. Silvia avalia cada caso com critérios oncológicos rigorosos. Sob supervisão especializada, a TRH pode ser uma opção segura para recuperar sua qualidade de vida."
+            },
+            "procedure": {
+                "question": "Como é o procedimento de aplicação?",
+                "answer": "É uma intervenção de consultório de menos de 15 minutos com anestesia local. Não requer pontos e você pode retomar suas atividades normais quase imediatamente."
+            },
+            "why_labs": {
+                "question": "Por que preciso de exames laboratoriais prévios?",
+                "answer": "Os exames são o mapa científico que permite definir sua dose exata. Não instalamos um produto padrão, equilibramos seu sistema de forma segura com base no seu sangue."
+            }
+        }
+    },
+    "ProgramPage": {
+        "title": "Programa TRH",
+        "description": "Preencha este formulário para avaliar o seu caso. A Dra. Silvia analisará as suas informações para determinar a melhor rota de tratamento profissional."
+    },
+    "ApplyForm": {
+        "steps": {
+            "basics": {
+                "title": "Pessoais",
+                "desc": "Conte-nos sobre você"
+            },
+            "medical": {
+                "title": "Contexto Médico",
+                "desc": "Sua saúde atual"
+            },
+            "history": {
+                "title": "Clínica",
+                "desc": "Seus antecedentes médicos"
+            },
+            "labs": {
+                "title": "Exames",
+                "desc": "Laboratórios recentes"
+            },
+            "commitment": {
+                "title": "Compromisso",
+                "desc": "Seu investimento em saúde"
+            }
+        },
+        "fields": {
+            "name": "Nome completo",
+            "email": "E-mail",
+            "age": "Idade",
+            "gestas": "Filhos (Gestações)",
+            "whatsapp": "WhatsApp",
+            "location": "De onde você nos contata?",
+            "reason": "Motivo da consulta",
+            "symptoms": "Principais sintomas",
+            "uterus": "Você tem útero?",
+            "app": "APP (Medicações/Patologias)",
+            "apf": "APF (Antecedentes Familiares)",
+            "cancer": "ACa.F (Câncer na família)",
+            "surgical": "AQ (Cirurgias anteriores)",
+            "allergies": "AA (Alergias)",
+            "investment_text": "Entendo que é um atendimento particular e estou {sex, select, female {disposta} male {disposto} other {disposto}} a investir na minha saúde.",
+            "commitment": "Qual é o seu nível de compromisso?"
+        },
+        "options": {
+            "select": "Selecionar país...",
+            "ready": "Estou {sex, select, female {pronta} male {pronto} other {pronto}} para começar já",
+            "doubts": "Tenho algumas dúvidas",
+            "info": "Apenas quero informações",
+            "app": "Exemplo: tomo metformina 500mg de manhã e 500mg à noite",
+            "apf": "Diabetes na família, Hipertensão, etc",
+            "cancer": "Câncer na família",
+            "surgical": "Cirurgias anteriores",
+            "allergies": "Alergias"
+        },
+        "success": {
+            "title": "Aplicação Recebida!",
+            "msg": "Obrigada por confiar em nós. A Dra. Silvia analisará seus antecedentes médicos detalhadamente para avaliar seu caso.",
+            "next_steps_msg": "Entraremos em contato em breve pelo WhatsApp."
+        },
+        "errors": {
+            "required": "Este campo é obrigatório",
+            "invalid_phone": "Número inválido para o país selecionado"
+        },
+        "common": {
+            "yes": "Sim",
+            "no": "Não",
+            "next": "Próximo",
+            "prev": "Voltar",
+            "finish": "Finalizar Aplicação",
+            "upload_btn": "Enviar exames (PDF/JPG)"
+        }
+    },
+    "Footer": {
+        "brand": "Dra. Silvia Vildoza",
+        "tagline": "Ginecologia Integral e Bem-Estar Hormonal. Medicina boutique desenhada para sua plenitude.",
+        "links_title": "Navegação",
+        "nav": {
+            "program": "Programa TRH",
+            "about": "Sobre a Dra. Silvia",
+            "faq": "Perguntas Frequentes",
+            "admin_access": "Acesso Médico"
+        },
+        "contact_title": "Atendimento ao Paciente",
+        "cari_cta": "Falar com a Secretária (Cari)",
+        "cari_message": "Olá Cari, venho do site da Dra. Silvia e gostaria de consultar sobre um horário...",
+        "agenda_title": "Agenda Internacional",
+        "next_date": "Próxima jornada de aplicação",
+        "location_info": "{location} — {dates}",
+        "rights": "© {year} Dra. Silvia Vildoza. Todos os direitos reservados.",
+        "privacy": "Privacidade",
+        "terms": "Termos",
+        "specialty_tag": "Medicina de Longevidade"
+    },
+    "PrivacyPage": {
+        "title": "Política de Privacidade e Custódia de Dados",
+        "lastUpdate": "Última atualização",
+        "section1": {
+            "title": "1. Compromisso Ético e Confidencialidade",
+            "content": "Para a Dra. Silvia Vildoza, a privacidade do seu patrimônio de saúde é um pilar innegociável da prática médica. Os dados sensíveis coletados para a avaliação clínica de Terapias de Reposição Hormonal (TRH) são gerenciados sob os mais altos padrões de bioética, garantindo o sigilo profissional e o respeito absoluto à sua intimidade."
+        },
+        "section2": {
+            "title": "2. Gestão do Patrimônio de Dados",
+            "content": "Com o objetivo de desenhar um protocolo de longevidade cirurgicamente preciso e personalizado, processamos as seguintes informações:",
+            "items": {
+                "personal": "Identificação Biográfica: Nome completo e canais de contato direto (WhatsApp e E-mail) para a coordenação do cuidado.",
+                "medical": "Contexto Médico Evolutivo: Antecedentes ginecológicos, sintomatologia atual e histórico clínico relevante para o equilíbrio hormonal.",
+                "files": "Evidência Diagnóstica: Exames laboratoriais e estudos complementares enviados de forma segura em nossa plataforma."
+            }
+        },
+        "section3": {
+            "title": "3. Segurança e Infraestructura Tecnológica",
+            "content": "Suas informações residem em uma infraestrutura de vanguarda desenhada para a proteção de dados médicos. Utilizamos armazenamento criptografado via Supabase e implantação otimizada através da Vercel. Implementamos políticas de segurança de acesso restrito (RLS) que garantem que apenas o pessoal clínico autorizado possa interagir com seu registro sensível."
+        },
+        "section4": {
+            "title": "4. Direitos do Titular",
+            "content": "Você conserva em todos os momentos a soberania sobre sua informação. Poderá exercer seus direitos de acesso, retificação, portabilidade ou revogação do consentimento, solicitando a exclusão definitiva do seu registro do nosso banco de dados ativo quando considerar oportuno."
+        },
+        "contact": {
+            "title": "Centro de Atendimento à Privacidade",
+            "description": "Se deseja exercer seus direitos ou precisa de esclarecimentos sobre o tratamento de sua informação médica, nosso canal oficial de WhatsApp está à sua disposição para uma gestão direta e personalizada."
+        }
+    },
+    "TermsPage": {
+        "title": "Termos e Condições de Serviço",
+        "lastUpdate": "Última atualização",
+        "sections": {
+            "general": {
+                "title": "1. Escopo da Medicina Boutique",
+                "content": "Os serviços médicos prestados pela Dra. Silvia Vildoza compreendem a alta consultoria, diagnóstico integral e acompanhamento evolutivo de Terapias de Reposição Hormonal Bioidêntica (TRHB). Esta plataforma é o portal de acesso a uma medicina desenhada 'sob medida', baseada na ciência da longevidade e na otimização do bem-estar hormonal."
+            },
+            "appointments": {
+                "title": "2. Consultas Digitais e Protocolo de Cancelamento",
+                "content": "As sessões clínicas são desenvolvidas através da plataforma Google Meet, garantindo um ambiente profissional de telemedicina. Dada a exclusividade de cada horário, as consultas devem ser reagendadas com um mínimo de 48 horas de antecedência. As ausências sem aviso prévio ou cancelamentos fora deste prazo não são reembolsáveis, reconhecendo o tempo profissional reservado para seu atendimento personalizado."
+            },
+            "medical": {
+                "title": "3. Responsabilidade e Rigor Clínico",
+                "content": "A excelência do tratamento depende da precisão diagnóstica. É condição obrigatória a apresentação dos exames laboratoriais solicitados antes de qualquer prescripción. A veracidade e integridade das informações declaradas no formulário de aplicação são de responsabilidade exclusiva da paciente, sendo fundamentais para garantir a segurança clínica do processo."
+            }
+        },
+        "footer_note": {
+            "title": "Consentimento de Atendimento",
+            "description": "Ao prosseguir com sua aplicação e agendamento, você declara compreender que a TRH é um processo de equilíbrio dinâmico que exige seu compromisso ativo, o estrito cumprimento dos protocolos indicados e a assistência aos seus controles periódicos para garantir resultados ideais em sua saúde."
+        }
+    }
+}

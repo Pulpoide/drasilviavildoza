@@ -1,43 +1,111 @@
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #F7EFE9; /* Nude */
-  --foreground: #3C3C3B; /* Carbón */
-  --primary: #C5A059;    /* Dorado */
-  --accent: #D9B9B0;     /* Rosa Viejo */
-  --radius: 0.75rem;
+  /* --- TUS COLORES BRANDING (HEX) --- */
+  --background: #F7EFE9;
+  /* Nude */
+  --foreground: #3C3C3B;
+  /* Carbón */
 
-  /* Shadcn/UI conventions often need these too, mapping them */
+  --primary: #C5A059;
+  /* Dorado Champagne */
+  --primary-foreground: #F7EFE9;
+
+  --accent: #D9B9B0;
+  /* Rosa Viejo */
+  --accent-foreground: #3C3C3B;
+
+  /* --- CONVENCIONES SHADCN --- */
   --card: #F7EFE9;
   --card-foreground: #3C3C3B;
+
   --popover: #F7EFE9;
   --popover-foreground: #3C3C3B;
-  --muted: #EDE5DE; /* Slightly darker nude for muted */
-  --muted-foreground: #8C8C8B;
-  --border: #D9B9B0; /* Using accent for borders */
-  --input: #D9B9B0;
+
+  --muted: #E5DED8;
+  /* Nude un poco más oscuro */
+  --muted-foreground: #6B635B;
+
+  --border: #D1C7BC;
+  --input: #D1C7BC;
   --ring: #C5A059;
+
+  --secondary: #D9B9B0;
+  --secondary-foreground: #3C3C3B;
+
+  --destructive: #7f1d1d;
+  --destructive-foreground: #fef2f2;
+
+  --radius: 0.75rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  
+
   --font-display: var(--font-playfair);
   --font-sans: var(--font-inter);
-  
-  --radius-lg: var(--radius);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-sm: calc(var(--radius) - 4px);
+
+  --radius-xl: var(--radius);
+  --radius-lg: calc(var(--radius) - 2px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-sm: calc(var(--radius) - 6px);
+
+  /* --- FIX ANIMACIONES ACCORDION --- */
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+
+    to {
+      height: 0;
+    }
+  }
+
+  --animate-accordion-down: accordion-down 0.25s ease-out;
+  --animate-accordion-up: accordion-up 0.25s ease-out;
 }
 
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+/* --- CAPA BASE --- */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-variant-ligatures: none;
+  }
+}
+
+/* Dark Mode (Opcional, pero lo dejamos configurado con tus colores) */
+.dark {
+  --background: #3C3C3B;
+  --foreground: #F7EFE9;
+  --primary: #C5A059;
+  --border: #4A4A49;
 }

@@ -1,33 +1,60 @@
+"use client";
+
+import { useTranslations } from 'next-intl';
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
+
 export default function FAQ() {
-    const faqs = [
-        {
-            q: "¿Qué es la TRH Bioidéntica?",
-            a: "Es una terapia que utiliza hormonas con una estructura molecular idéntica a las que produce tu cuerpo, logrando un balance natural sin los riesgos de las hormonas sintéticas tradicionales."
-        },
-        {
-            q: "¿Para quién es este tratamiento?",
-            a: "Mujeres en perimenopausia, menopausia o con desequilibrios hormonales que buscan recuperar su energía, mejorar su sueño, libido y bienestar general."
-        },
-        {
-            q: "¿Cómo es el proceso de consulta?",
-            a: "Iniciamos con una evaluación integral de tu historia clínica y laboratorios. Si eres candidata, diseñamos un plan a medida y te acompañamos en el seguimiento."
-        }
-    ];
+    const t = useTranslations('Faqs');
+
+    const faqKeys = [
+        'what_is_trh',
+        'is_bioidentical',
+        'benefits',
+        'cancer_history',
+        'procedure',
+        'why_labs'
+    ] as const;
 
     return (
-        <section className="py-20 bg-[var(--background)]">
-            <div className="container px-4 mx-auto max-w-3xl">
-                <h2 className="font-display text-3xl md:text-4xl text-[var(--foreground)] mb-12 text-center">
-                    Preguntas Frecuentes
-                </h2>
-                <div className="space-y-6">
-                    {faqs.map((faq, i) => (
-                        <div key={i} className="p-6 border border-[var(--border)] rounded-[var(--radius)]">
-                            <h3 className="font-display text-lg text-[var(--primary)] mb-2">{faq.q}</h3>
-                            <p className="text-[var(--foreground)]/80 text-sm leading-relaxed">{faq.a}</p>
-                        </div>
-                    ))}
+        <section id="faq" className="py-10 bg-accent/5">
+            <div className="container px-4 mx-auto max-w-5xl">
+                {/* Cabecera optimizada */}
+                <div className="text-center mb-16">
+                    <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
+                        {t('title')}
+                    </h2>
+                    <div className="h-1 w-20 bg-primary mx-auto mb-8" />
+                    <p className="text-foreground/70 font-sans italic max-w-2xl mx-auto text-lg">
+                        {t('description')}
+                    </p>
                 </div>
+
+                <Accordion type="single" collapsible className="w-full space-y-4">
+                    {faqKeys.map((key) => (
+                        <AccordionItem
+                            key={key}
+                            value={key}
+                            className="border border-primary/10 rounded-xl bg-white/40 px-6 overflow-hidden transition-colors hover:bg-white/60"
+                        >
+                            <AccordionTrigger className="font-display text-xl text-primary hover:no-underline text-left py-6">
+                                {t(`items.${key}.question`)}
+                            </AccordionTrigger>
+
+                            <AccordionContent className="overflow-hidden">
+                                <div className="pb-6 pt-2 pl-6 border-l-2 border-accent/40 ml-1">
+                                    <p className="text-foreground/80 text-lg leading-relaxed">
+                                        {t(`items.${key}.answer`)}
+                                    </p>
+                                </div>
+                            </AccordionContent>
+                        </AccordionItem>
+                    ))}
+                </Accordion>
             </div>
         </section>
     );

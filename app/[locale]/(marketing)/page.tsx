@@ -9,10 +9,9 @@ export default function Home() {
       <Hero />
       <Bio />
       <TRHInfo />
-      <FAQ />
-      <section className="py-20 text-center text-muted-foreground">
-        <p>Más secciones (Bio, TRH, FAQ) en desarrollo...</p>
-      </section>
+      <div className="w-full">
+        <FAQ />
+      </div>
     </main>
   );
 }

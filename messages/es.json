@@ -1,15 +1,242 @@
 {
-  "Hero": {
-    "title": "Recupera tu plenitud",
-    "subtitle": "Terapia de Reemplazo Hormonal y Ginecología Integrativa",
-    "cta_program": "Programa TRH",
-    "cta_general": "Consulta General"
+  "Common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "yes": "Sí",
+    "no": "No"
   },
   "Auth": {
     "login": "Iniciar Sesión"
   },
-  "Common": {
-    "loading": "Cargando...",
-    "error": "Ocurrió un error"
+  "Navbar": {
+    "menu": {
+      "bio": "Bio",
+      "trh": "Programa TRH",
+      "faq": "Preguntas Frecuentes"
+    },
+    "cta": "Agendar Meet",
+    "languages": {
+      "es": "Español",
+      "pt": "Português",
+      "en": "English"
+    }
+  },
+  "TopBanner": {
+    "next_location": "Próxima jornada de colocación: {location}",
+    "dates": "Agenda abierta para {dates}",
+    "cta": "Reservar mi cupo ahora"
+  },
+  "Hero": {
+    "title": "Recupera la energía que creíste haber perdido",
+    "subtitle": "Ginecología Integral y Bienestar Hormonal",
+    "description": "Porque sobrevivir no es lo mismo que vivir con plenitud. Medicina hormonal de precisión para hombres y mujeres.",
+    "cta_program": "Aplicar a Programa TRH",
+    "cta_general": "Ver beneficios"
+  },
+  "Bio": {
+    "title": "Más de 30 años de ciencia, una vida de resiliencia",
+    "intro": "Durante tres décadas, mi vida estuvo dedicada a acompañar el milagro del nacimiento como ginecóloga obstetra. Traer miles de vidas al mundo me enseñó que la salud de la mujer es un camino de evolución constante, y que el bienestar no debe detenerse al llegar a la madurez.",
+    "personal_story": "Mi camino no fue lineal. Como sobreviviente de cáncer de mama en varias ocasiones, experimenté en carne propia el miedo, la incertidumbre y el impacto profundo que los cambios hormonales tienen sobre nuestra identidad y energía. Entendí que sobrevivir es solo el primer paso; el verdadero objetivo es recuperar la plenitud y volver a sentirnos dueñas de nuestro cuerpo.",
+    "method_title": "El Método: 'Un Traje a Medida'",
+    "method_desc": "Hoy, mi práctica se centra en la Medicina de Longevidad y la Terapia de Reemplazo Hormonal (TRH). No creo en soluciones estándar. Cada paciente recibe lo que llamo un 'traje a medida': un tratamiento diseñado estrategicamente a partir de análisis clínicos profundos. Combinamos hormonas de alta calidad con fármacos específicos para asegurar que cada organismo reciba exactamente lo que necesita para equilibrarse de forma segura y efectiva.",
+    "promise": "Mi propósito es ayudarte a redescubrir tu vitalidad. El equilibrio hormonal no solo mejora la energía, la libido y la calidad del sueño; es una inversión en tu salud cardiovascular, ósea y cognitiva para los años que tienes por delante. Ya sea en Argentina o en Brasil, mi compromiso es acompañarte a vivir tu etapa más poderosa con ciencia, seguridad y empatía."
+  },
+  "TRHInfo": {
+    "title": "Medicina de Precisión: Tu Traje a Medida",
+    "description": "La Terapia de Reemplazo Hormonal no es un producto estándar. Es una restauración molecular diseñada exclusivamente para tu biología, utilizando hormonas idénticas a las que tu cuerpo reconoce.",
+    "benefits": {
+      "energy": {
+        "title": "Energía Vital",
+        "desc": "Recupera la fuerza física y la claridad mental. Dile adiós a la neblina mental y al agotamiento crónico."
+      },
+      "rest": {
+        "title": "Sueño Reparador",
+        "desc": "Regula tus ciclos de descanso y estabiliza el ánimo. Vuelve a dormir profundamente y despertar con propósito."
+      },
+      "intimacy": {
+        "title": "Deseo y Plenitud",
+        "desc": "Restaura la libido y la salud sexual. Recupera la conexión con tu cuerpo y tu pareja de forma natural."
+      },
+      "protection": {
+        "title": "Protección a Futuro",
+        "desc": "Una inversión en longevidad: protege tu salud ósea, cardiovascular y cognitiva para los próximos años."
+      }
+    }
+  },
+  "Faqs": {
+    "title": "Preguntas Frecuentes",
+    "description": "Despeja tus dudas sobre la TRH y el camino hacia tu bienestar.",
+    "items": {
+      "what_is_trh": {
+        "question": "¿Qué es exactamente la TRH y el famoso 'Chip'?",
+        "answer": "La TRH consiste en restaurar los niveles hormonales que disminuyen con la edad. El 'chip' o pellet es un pequeño implante que libera estas hormonas de forma constante durante 6 a 9 meses."
+      },
+      "is_bioidentical": {
+        "question": "¿Son todas las hormonas 'bioidénticas'?",
+        "answer": "No necesariamente. Diseñamos un 'traje a medida' que puede combinar hormonas bioidénticas con fármacos específicos para optimizar tu metabolismo según tus laboratorios."
+      },
+      "benefits": {
+        "question": "¿Qué beneficios reales puedo esperar?",
+        "answer": "Los pacientes reportan mejoras profundas en energía, libido y calidad del sueño, además de protección cardiovascular y ósea a largo plazo."
+      },
+      "cancer_history": {
+        "question": "Tengo antecedentes de cáncer, ¿puedo realizar el tratamiento?",
+        "answer": "Como sobreviviente y especialista, la Dra. Silvia evalúa cada caso con criterios oncológicos rigurosos. Bajo supervisión experta, la TRH puede ser una opción segura para recuperar tu calidad de vida."
+      },
+      "procedure": {
+        "question": "¿Cómo es el procedimiento de colocación?",
+        "answer": "Es una intervención de consultorio de menos de 15 minutos con anestesia local. No requiere puntos y puedes retomar tus actividades normales casi de inmediato."
+      },
+      "why_labs": {
+        "question": "¿Por qué necesito análisis de laboratorio previos?",
+        "answer": "Los análisis son el mapa científico que permite definir tu dosis exacta. No instalamos un producto estándar, equilibramos tu sistema de forma segura basándonos en tu sangre."
+      }
+    }
+  },
+  "ProgramPage": {
+    "title": "Programa TRH",
+    "description": "Complete este formulario para evaluar su caso. La Dra. Silvia analizará su información para determinar la mejor ruta de tratamiento profesional."
+  },
+  "ApplyForm": {
+    "steps": {
+      "basics": {
+        "title": "Personales",
+        "desc": "Cuéntanos sobre ti"
+      },
+      "medical": {
+        "title": "Contexto Médico",
+        "desc": "Tu salud actual"
+      },
+      "history": {
+        "title": "Clínica",
+        "desc": "Tus antecedentes médicos"
+      },
+      "labs": {
+        "title": "Estudios",
+        "desc": "Laboratorios recientes"
+      },
+      "commitment": {
+        "title": "Compromiso",
+        "desc": "Tu inversión en salud"
+      }
+    },
+    "fields": {
+      "name": "Nombre completo",
+      "email": "Email",
+      "age": "Edad",
+      "gestas": "Hijos (Gestas)",
+      "whatsapp": "WhatsApp",
+      "location": "¿Desde dónde nos contactas?",
+      "reason": "Motivo de consulta",
+      "symptoms": "Síntomas principales",
+      "uterus": "¿Tienes útero?",
+      "app": "APP (Medicaciones/Patologías)",
+      "apf": "APF (Antecedentes Familiares)",
+      "cancer": "ACa.F (Cáncer en la familia)",
+      "surgical": "AQ (Cirugías previas)",
+      "allergies": "AA (Alergias)",
+      "investment_text": "Entiendo que es una atención privada y estoy {sex, select, female {dispuesta} male {dispuesto} other {dispuesto}} a invertir en mi salud.",
+      "commitment": "¿Cuál es tu nivel de compromiso?"
+    },
+    "options": {
+      "select": "Seleccionar país...",
+      "ready": "Estoy {sex, select, female {lista} male {listo} other {listo}} para empezar ya",
+      "doubts": "Tengo algunas dudas",
+      "info": "Solo quiero información",
+      "app": "Ejemplo: tomo metformina 500mg por la mañana y 500mg por la noche",
+      "apf": "Diabetes en la familia, Hipertensión, etc",
+      "cancer": "Cáncer en la familia",
+      "surgical": "Cirugías previas",
+      "allergies": "Alergias"
+    },
+    "success": {
+      "title": "¡Aplicación Recibida!",
+      "msg": "Gracias por confiar en nosotros. La Dra. Silvia analizará tus antecedentes médicos detalladamente para evaluar tu caso.",
+      "next_steps_msg": "Te contactaremos pronto por WhatsApp."
+    },
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "invalid_phone": "Número no válido para el país seleccionado"
+    },
+    "common": {
+      "yes": "Sí",
+      "no": "No",
+      "next": "Siguiente",
+      "prev": "Atrás",
+      "finish": "Finalizar Aplicación",
+      "upload_btn": "Subir análisis (PDF/JPG)"
+    }
+  },
+  "Footer": {
+    "brand": "Dra. Silvia Vildoza",
+    "tagline": "Ginecología Integral y Bienestar Hormonal. Medicina boutique diseñada para tu plenitud.",
+    "links_title": "Navegación",
+    "nav": {
+      "program": "Programa TRH",
+      "about": "Sobre la Dra. Silvia",
+      "faq": "Preguntas Frecuentes",
+      "admin_access": "Acceso Médico"
+    },
+    "contact_title": "Atención al Paciente",
+    "cari_cta": "Chatear con Secretaria (Cari)",
+    "cari_message": "Hola Cari, vengo de la web de la Dra. Silvia y quería consultar por un turno...",
+    "agenda_title": "Agenda Internacional",
+    "next_date": "Próxima jornada de colocación",
+    "location_info": "{location} — {dates}",
+    "rights": "© {year} Dra. Silvia Vildoza. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "specialty_tag": "Medicina de Longevidad"
+  },
+  "PrivacyPage": {
+    "title": "Política de Privacidad y Custodia de Datos",
+    "lastUpdate": "Última actualización",
+    "section1": {
+      "title": "1. Compromiso Ético y Confidencialidad",
+      "content": "Para la Dra. Silvia Vildoza, la privacidad de su patrimonio de salud es un pilar innegociable de la práctica médica. Los datos sensibles recolectados para la evaluación clínica de Terapias de Reemplazo Hormonal (TRH) son gestionados bajo los más altos estándares de bioética, garantizando el secreto profesional y el respeto absoluto a su intimidad."
+    },
+    "section2": {
+      "title": "2. Gestión del Patrimonio de Datos",
+      "content": "Con el fin de diseñar un protocolo de longevidad quirúrgicamente preciso y personalizado, procesamos la siguiente información:",
+      "items": {
+        "personal": "Identificación Biográfica: Nombre completo y canales de contacto directo (WhatsApp y Email) para la coordinación del cuidado.",
+        "medical": "Contexto Médico Evolutivo: Antecedentes ginecológicos, sintomatología actual e historial clínico relevante para el equilibrio hormonal.",
+        "files": "Evidencia Diagnóstica: Analíticas de laboratorio y estudios complementarios cargados de forma segura en nuestra plataforma."
+      }
+    },
+    "section3": {
+      "title": "3. Seguridad e Infraestructura Tecnológica",
+      "content": "Su información reside en una infraestructura de vanguardia diseñada para la protección de datos médicos. Utilizamos almacenamiento cifrado mediante Supabase y despliegue optimizado a través de Vercel. Implementamos políticas de seguridad de acceso restringido (RLS) que aseguran que solo el personal clínico autorizado pueda interactuar con su registro sensible."
+    },
+    "section4": {
+      "title": "4. Derechos del Titular",
+      "content": "Usted conserva en todo momento la soberanía sobre su información. Podrá ejercer sus derechos de acceso, rectificación, portabilidad o revocación del consentimiento, solicitando la eliminación definitiva de su registro de nuestra base de datos activa cuando lo considere oportuno."
+    },
+    "contact": {
+      "title": "Centro de Atención a la Privacidad",
+      "description": "Si desea ejercer sus derechos o requiere clarificación sobre el tratamiento de su información médica, nuestro canal oficial de WhatsApp está a su disposición para una gestión directa y personalizada."
+    }
+  },
+  "TermsPage": {
+    "title": "Términos y Condiciones de Servicio",
+    "lastUpdate": "Última actualización",
+    "sections": {
+      "general": {
+        "title": "1. Alcance de la Medicina Boutique",
+        "content": "Los servicios médicos proporcionados por la Dra. Silvia Vildoza comprenden la alta consultoría, diagnóstico integral y seguimiento evolutivo de Terapias de Reemplazo Hormonal Bioidéntico (TRHB). Esta plataforma es el portal de acceso a una medicina diseñada 'a medida', basada en la ciencia de la longevidad y la optimización del bienestar hormonal."
+      },
+      "appointments": {
+        "title": "2. Consultas Digitales y Protocolo de Cancelación",
+        "content": "Las sesiones clínicas se desarrollan mediante la plataforma Google Meet, asegurando un entorno profesional de telemedicina. Dada la exclusividad de cada turno, las citas deben ser reprogramadas con un mínimo de 48 horas de antelación. Las inasistencias sin previo aviso o cancelaciones fuera de este plazo no son reembolsables, reconociendo el tiempo profesional reservado para su atención personalizada."
+      },
+      "medical": {
+        "title": "3. Responsabilidad y Rigor Clínico",
+        "content": "La excelencia del tratamiento depende de la precisión diagnóstica. Es condición obligatoria la presentación de las analíticas de laboratorio solicitadas antes de cualquier prescripción. La veracidad y completitud de la información declarada en el formulario de aplicación son responsabilidad exclusiva de la paciente, siendo fundamentales para garantizar la seguridad clínica del proceso."
+      }
+    },
+    "footer_note": {
+      "title": "Consentimiento de Atención",
+      "description": "Al proceder con su aplicación y agendamiento, usted declara comprender que la TRH es un proceso de equilibrio dinámico que exige su compromiso activo, el estricto cumplimiento de los protocolos indicados y la asistencia a sus controles periódicos para asegurar resultados óptimos en su salud."
+    }
   }
 }
