@@ -1,5 +1,4 @@
-// app/[locale]/(marketing)/layout.tsx
-import Navbar from "@/components/layout/Navbar"; // Verifica que la ruta sea correcta
+import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 export default function MarketingLayout({

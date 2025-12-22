@@ -5,6 +5,10 @@
         "yes": "Sim",
         "no": "Não"
     },
+    "Metadata": {
+        "title": "Dra. Silvia Vildoza | Ginecologia Integral",
+        "description": "Especialista em Ginecologia e Bem-estar Hormonal (TRH). Recupere sua vitalidade com medicina de precisão."
+    },
     "Auth": {
         "login": "Iniciar Sessão"
     },

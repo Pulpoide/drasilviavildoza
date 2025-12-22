@@ -1,10 +1,26 @@
 import '../globals.css';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Inter, Playfair_Display } from 'next/font/google';
-// Configuración de fuentes
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const { locale } = await params;
+
+    const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+    return {
+        title: t('title'),
+        description: t('description'),
+        icons: {
+            icon: '/favicon.ico',
+            apple: '/apple-icon.png',
+        }
+    };
+}
+
 const inter = Inter({
     subsets: ['latin'],
     variable: '--font-inter'
