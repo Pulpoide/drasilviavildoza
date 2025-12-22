@@ -8,8 +8,9 @@ import { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await params;
-
     const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+    const baseUrl = 'https://drasilviavildoza-web.vercel.app';
 
     return {
         title: t('title'),
@@ -17,7 +18,23 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         icons: {
             icon: '/favicon.ico',
             apple: '/apple-icon.png',
-        }
+        },
+        openGraph: {
+            title: t('title'),
+            description: t('description'),
+            url: `${baseUrl}/${locale}`,
+            type: 'website',
+            siteName: 'Dra. Silvia Vildoza',
+            images: [
+                {
+                    url: `${baseUrl}/og-image.png`,
+                    width: 1200,
+                    height: 630,
+                    alt: t('title'),
+                },
+            ],
+            locale: locale,
+        },
     };
 }
 
