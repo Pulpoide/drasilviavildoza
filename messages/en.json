@@ -5,6 +5,10 @@
         "yes": "Yes",
         "no": "No"
     },
+    "Metadata": {
+        "title": "Dra. Silvia Vildoza | Integrative Gynecology",
+        "description": "Specialist in Gynecology and Hormonal Wellness (BHRT). Reclaim your vitality with precision medicine."
+    },
     "Auth": {
         "login": "Login"
     },
