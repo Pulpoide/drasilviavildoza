@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
             siteName: 'Dra. Silvia Vildoza',
             images: [
                 {
-                    url: `${baseUrl}/og-image.png`,
+                    url: `images/og-image.png`,
                     width: 1200,
                     height: 630,
                     alt: t('title'),
