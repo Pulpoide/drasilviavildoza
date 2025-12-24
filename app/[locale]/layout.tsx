@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'Metadata' });
 
-    const baseUrl = 'https://drasilviavildoza-web.vercel.app';
+    const baseUrl = 'https://www.dravildoza.com/';
 
     return {
         title: t('title'),
