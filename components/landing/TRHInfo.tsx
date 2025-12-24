@@ -12,7 +12,7 @@ export default function TRHInfo() {
     ];
 
     return (
-        <section id="trh" className="w-full py-20 bg-accent/8">
+        <section id="trh" className="w-full py-35 bg-accent/8">
             <div className="container px-4 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="font-display text-4xl md:text-5xl text-[var(--foreground)] mb-6 leading-tight">

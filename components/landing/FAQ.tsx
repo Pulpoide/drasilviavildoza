@@ -21,7 +21,7 @@ export default function FAQ() {
     ] as const;
 
     return (
-        <section id="faq" className="py-10 bg-accent/5">
+        <section id="faq" className="py-25 bg-accent/5">
             <div className="container px-4 mx-auto max-w-5xl">
                 {/* Cabecera optimizada */}
                 <div className="text-center mb-16">

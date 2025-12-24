@@ -5,7 +5,7 @@ export default function Bio() {
     const t = useTranslations('Bio');
 
     return (
-        <section id="bio" className="w-full py-10 bg-accent/10">
+        <section id="bio" className="w-full py-25 bg-accent/10">
             <div className="container px-4 mx-auto grid md:grid-cols-2 gap-12 items-center">
                 {/* Contenedor de Imagen con Proporción Vertical */}
                 <div className="relative w-full aspect-[3/4] md:aspect-[4/5] bg-muted rounded-3xl overflow-hidden shadow-2xl border border-primary/10">
