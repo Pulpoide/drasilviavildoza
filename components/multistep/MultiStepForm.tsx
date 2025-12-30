@@ -33,6 +33,7 @@ export default function MultiStepForm() {
     const [uploading, setUploading] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [finalResult, setFinalResult] = useState(null);
+    const [isProcessing, setIsProcessing] = useState(false);
 
     const methods = useForm<LeadFormData>({
         resolver: zodResolver(leadSchema) as any,
@@ -61,7 +62,7 @@ export default function MultiStepForm() {
         }
     });
 
-    const { handleSubmit, trigger, watch, setValue, formState: { errors }, getValues } = methods;
+    const { handleSubmit, trigger, watch, setValue, formState: { errors, isValid }, getValues } = methods;
 
     const selectedSex = watch('sex');
     const currentCountryCode = watch('country_code') as CountryCode;
@@ -142,6 +143,7 @@ export default function MultiStepForm() {
     };
 
     const onSubmit: SubmitHandler<LeadFormData> = async (data) => {
+        setIsProcessing(true)
         try {
             const sanitizedData = {
                 ...data,
@@ -166,6 +168,8 @@ export default function MultiStepForm() {
             }
         } catch (e) {
             alert("Error de conexión.");
+        } finally {
+            setIsProcessing(false);
         }
     };
 
@@ -389,16 +393,34 @@ export default function MultiStepForm() {
                         </CardContent>
 
                         <CardFooter className="flex justify-between p-6 bg-muted/20 border-t border-primary/5">
-                            <Button type="button" variant="ghost" onClick={() => setStep(s => s - 1)} disabled={step === 1}>
+                            <Button
+                                type="button"
+                                variant="ghost"
+                                onClick={() => setStep(s => s - 1)}
+                                disabled={step === 1 || isProcessing}
+                            >
                                 {t('common.prev')}
                             </Button>
+
                             {step < 5 ? (
-                                <Button type="button" onClick={nextStep} className="bg-primary hover:bg-primary/90 px-8">
+                                <Button
+                                    type="button"
+                                    onClick={nextStep}
+                                    className="bg-primary hover:bg-primary/90 px-8"
+                                >
                                     {t('common.next')}
                                 </Button>
                             ) : (
-                                <Button type="submit" className="bg-primary px-10">
-                                    {t('common.finish')}
+                                <Button
+                                    type="submit"
+                                    disabled={isProcessing}
+                                    className="bg-primary px-10"
+                                >
+                                    {isProcessing ? (
+                                        <Loader2 className="h-4 w-4 animate-spin" />
+                                    ) : (
+                                        t('common.finish')
+                                    )}
                                 </Button>
                             )}
                         </CardFooter>
