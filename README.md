@@ -1,6 +1,6 @@
 # Silvia Vildoza — Medical Branding & Patient Management System
 
-![Next.js 15](https://img.shields.io/badge/Next.js-15-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC) ![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Auth-green) ![next-intl](https://img.shields.io/badge/i18n-ES%20%7C%20PT%20%7C%20EN-orange)
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-Auth_&_DB-3ECF8E?logo=supabase&logoColor=white) ![i18n](https://img.shields.io/badge/i18n-ES_|_PT_|_EN-orange?logo=googletranslate&logoColor=white)
 
 Welcome to the repository for **Dra. Silvia Vildoza's** professional platform. This is a high-end, trilingual medical system designed for a specialist in Integrative Gynecology and Longevity Medicine.
 
