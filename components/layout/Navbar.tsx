@@ -11,7 +11,6 @@ import { useLocale } from 'next-intl';
 export default function Navbar() {
     const t = useTranslations('Navbar');
     const locale = useLocale();
-    const tFooter = useTranslations('Footer');
     const pathname = usePathname();
     const router = useRouter();
     const [isScrolled, setIsScrolled] = useState(false);
@@ -20,7 +19,7 @@ export default function Navbar() {
     const langMenuRef = useRef<HTMLDivElement>(null);
 
     const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
-    const message = tFooter('cari_message');
+    const message = t('meet_message');
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     useEffect(() => {
