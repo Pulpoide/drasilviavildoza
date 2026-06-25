@@ -19,6 +19,7 @@
             "faq": "Common Questions"
         },
         "cta": "Schedule Meet",
+        "meet_message": "Hello, I'd like to schedule an appointment for a virtual consultation.",
         "languages": {
             "es": "Español",
             "pt": "Português",
@@ -31,7 +32,7 @@
         "cta": "Reserve my spot now"
     },
     "Hero": {
-        "title": "Reclaim the energy you thought was gone",
+        "title": "Your health, guided by lifelong experience and genuine warmth",
         "subtitle": "Integrative Gynecology & Hormonal Wellness",
         "description": "Because surviving is not the same as living with vitality. Precision hormonal medicine for men and women.",
         "cta_program": "Apply to HRT Program",
@@ -183,7 +184,7 @@
         },
         "contact_title": "Patient Care",
         "cari_cta": "Chat with Secretary (Cari)",
-        "cari_message": "Hi Cari, I'm coming from Dr. Silvia's website and would like to inquire about an appointment...",
+        "cari_message": "Hi Cari, I'm coming from Dr. Silvia's website and would like to inquire about an appointment.",
         "agenda_title": "International Agenda",
         "next_date": "Next placement session",
         "location_info": "{location} — {dates}",

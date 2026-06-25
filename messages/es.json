@@ -19,6 +19,7 @@
       "faq": "Preguntas Frecuentes"
     },
     "cta": "Agendar Meet",
+    "meet_message": "Hola, me gustaría agendar una cita para una consulta virtual.",
     "languages": {
       "es": "Español",
       "pt": "Português",
@@ -31,7 +32,7 @@
     "cta": "Reservar mi cupo ahora"
   },
   "Hero": {
-    "title": "Recupera la energía que creíste haber perdido",
+    "title": "Tu salud, acompañada por la experiencia y la calidez de siempre",
     "subtitle": "Ginecología Integral y Bienestar Hormonal",
     "description": "Porque sobrevivir no es lo mismo que vivir con plenitud. Medicina hormonal de precisión para hombres y mujeres.",
     "cta_program": "Aplicar a Programa TRH",
@@ -183,7 +184,7 @@
     },
     "contact_title": "Atención al Paciente",
     "cari_cta": "Chatear con Secretaria (Cari)",
-    "cari_message": "Hola Cari, vengo de la web de la Dra. Silvia y quería consultar por un turno...",
+    "cari_message": "Hola Cari, vengo de la web de la Dra. Vildoza y quería consultar por un turno.",
     "agenda_title": "Agenda Internacional",
     "next_date": "Próxima jornada de colocación",
     "location_info": "{location} — {dates}",

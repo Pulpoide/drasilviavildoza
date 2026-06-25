@@ -19,6 +19,7 @@
             "faq": "Perguntas Frequentes"
         },
         "cta": "Agendar Meet",
+        "meet_message": "Olá, gostaria de agendar uma consulta virtual.",
         "languages": {
             "es": "Español",
             "pt": "Português",
@@ -31,7 +32,7 @@
         "cta": "Reservar minha vaga agora"
     },
     "Hero": {
-        "title": "Recupere a energia que você acreditou ter perdido",
+        "title": "Sua saúde, acompanhada pela experiência e o acolhimento de sempre",
         "subtitle": "Ginecologia Integral e Bem-Estar Hormonal",
         "description": "Porque sobreviver não é o mesmo que viver com plenitude. Medicina hormonal de precisão para homens e mulheres.",
         "cta_program": "Aplicar ao Programa TRH",
@@ -183,7 +184,7 @@
         },
         "contact_title": "Atendimento ao Paciente",
         "cari_cta": "Falar com a Secretária (Cari)",
-        "cari_message": "Olá Cari, venho do site da Dra. Silvia e gostaria de consultar sobre um horário...",
+        "cari_message": "Olá Cari, venho do site da Dra. Silvia e gostaria de consultar sobre um horário.",
         "agenda_title": "Agenda Internacional",
         "next_date": "Próxima jornada de aplicação",
         "location_info": "{location} — {dates}",
