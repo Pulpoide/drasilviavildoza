@@ -6,7 +6,7 @@ import { routing } from './i18n/routing';
 // 1. Inicializamos el middleware de idiomas
 const intlMiddleware = createIntlMiddleware(routing);
 
-export default async function middleware(req: NextRequest) {
+export default async function proxy(req: NextRequest) {
     // 2. Obtenemos la respuesta del middleware de idiomas
     let response = intlMiddleware(req);
 
