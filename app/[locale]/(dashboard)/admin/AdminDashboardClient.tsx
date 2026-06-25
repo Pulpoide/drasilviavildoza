@@ -33,14 +33,10 @@ export default function AdminDashboardClient({ leads }: { leads: any[] }) {
     };
 
     const handleViewLab = async (filePath: string) => {
-        // filePath es algo como "labs/archivo.pdf"
-        // Extraemos solo la parte después de /lab-files/
-        const path = filePath.split('lab-files/')[1];
-
         const { data, error } = await supabase
             .storage
             .from('lab-files')
-            .createSignedUrl(path, 60); // La URL durará solo 60 segundos
+            .createSignedUrl(filePath, 60);
 
         if (error) {
             console.error("Error al generar URL firmada:", error.message);
