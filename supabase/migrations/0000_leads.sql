@@ -1,5 +1,5 @@
 -- Create Enums
-create type lead_status as enum ('nuevo', 'contactado', 'meet_agendado', 'finalizado');
+create type lead_status as enum ('pending', 'contacted', 'scheduled', 'discarded');
 create type lead_commitment as enum ('ready', 'doubts', 'info_only');
 
 -- Create Leads Table
@@ -16,7 +16,7 @@ create table if not exists leads (
   investment_ok boolean default false,
   commitment lead_commitment,
   score integer default 0,
-  status lead_status default 'nuevo'
+  status lead_status default 'pending'
 );
 
 -- Enable RLS
