@@ -25,7 +25,7 @@ export const leadSchema = z.object({
     }),
 
     // Paso 4: Estudios
-    lab_file_url: z.string().url().optional().nullable(),
+    lab_file_path: z.string().optional().nullable(),
 
     // Paso 5: Compromiso
     investment_ok: z

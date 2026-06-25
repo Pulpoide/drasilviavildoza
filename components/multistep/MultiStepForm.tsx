@@ -124,7 +124,7 @@ export default function MultiStepForm() {
                 .upload(filePath, file);
             if (uploadError) throw uploadError;
 
-            setValue('lab_file_url', filePath, { shouldValidate: true });
+            setValue('lab_file_path', filePath, { shouldValidate: true });
 
         } catch (error) {
             console.error('Error:', error);
@@ -373,7 +373,7 @@ export default function MultiStepForm() {
                                         <Label htmlFor="file-upload" className="cursor-pointer bg-white border border-primary/20 px-6 py-3 rounded-full inline-block">
                                             {uploading ? <Loader2 className="animate-spin" /> : t('common.upload_btn')}
                                         </Label>
-                                        {watch('lab_file_url') && <p className="mt-4 text-green-600 font-medium">✓ Archivo listo</p>}
+                                        {watch('lab_file_path') && <p className="mt-4 text-green-600 font-medium">✓ Archivo listo</p>}
                                     </div>
                                 </div>
                             )}

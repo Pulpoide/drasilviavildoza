@@ -193,12 +193,12 @@ export default function AdminDashboardClient({ leads }: { leads: any[] }) {
                                     <TableCell className="text-right pr-6">
                                         <div className="flex justify-end gap-2">
                                             {/* NUEVO: Botón de Laboratorio rápido */}
-                                            {lead.lab_file_url && (
+                                            {lead.lab_file_path && (
                                                 <Button
                                                     variant="outline"
                                                     size="icon"
                                                     className="rounded-full text-blue-600 hover:bg-blue-50 border-blue-200 shadow-sm"
-                                                    onClick={() => handleViewLab(lead.lab_file_url)}
+                                                    onClick={() => handleViewLab(lead.lab_file_path)}
                                                 >
                                                     <FileText size={16} />
                                                 </Button>
@@ -271,10 +271,10 @@ export default function AdminDashboardClient({ leads }: { leads: any[] }) {
                                                     </div>
 
                                                     <div className="border-t pt-6 flex gap-3">
-                                                        {lead.lab_file_url && (
+                                                        {lead.lab_file_path && (
                                                             <Button
                                                                 className="flex-1 bg-slate-900 hover:bg-slate-800 text-white rounded-xl py-6"
-                                                                onClick={() => handleViewLab(lead.lab_file_url)}
+                                                                onClick={() => handleViewLab(lead.lab_file_path)}
                                                             >
                                                                 <FileText className="mr-2" size={18} /> Ver Laboratorios
                                                             </Button>

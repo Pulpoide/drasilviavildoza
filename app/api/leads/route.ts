@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
-import { supabase } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server';
 import { leadSchema } from '@/lib/schemas';
 
 export async function POST(request: Request) {
+    const supabase = await createClient();
     try {
         const body = await request.json();
         const validation = leadSchema.safeParse(body);
@@ -31,7 +32,7 @@ export async function POST(request: Request) {
                 gestas: data.sex === 'female' ? data.gestas : 0,
                 location: data.location,
                 medical_context: data.medical_context,
-                lab_file_url: data.lab_file_url,
+                lab_file_path: data.lab_file_path,
                 investment_ok: data.investment_ok,
                 commitment: data.commitment,
                 score: internalScore, // Esto servirá para ordenar la tabla de la Doc
