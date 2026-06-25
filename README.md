@@ -1,6 +1,12 @@
-# Silvia Vildoza — Medical Branding & Patient Management System
+# Dra. Silvia Vildoza 
+
+<div align="center">
+   <img src="public/images/dravildoza.png" width="700">
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-Auth_&_DB-3ECF8E?logo=supabase&logoColor=white) ![i18n](https://img.shields.io/badge/i18n-ES_|_PT_|_EN-orange?logo=googletranslate&logoColor=white)
+</div>
+
+### Medical Branding & Patient Management System
 
 Welcome to the repository for **Dra. Silvia Vildoza's** professional platform. This is a high-end, trilingual medical system designed for a specialist in Integrative Gynecology and Longevity Medicine.
 
