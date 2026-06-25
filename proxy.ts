@@ -11,10 +11,9 @@ export default async function proxy(req: NextRequest) {
     let response = intlMiddleware(req);
 
     // 3. Configuramos el cliente de Supabase para el Middleware
-    // Esta es la forma recomendada para Next.js 14/15
     const supabase = createServerClient(
         process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+        process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
         {
             cookies: {
                 getAll() {
