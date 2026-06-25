@@ -118,10 +118,14 @@ export default function MultiStepForm() {
             const fileExt = file.name.split('.').pop();
             const fileName = `${Date.now()}-${Math.random().toString(36).substring(2)}.${fileExt}`;
             const filePath = `labs/${fileName}`;
-            const { error: uploadError } = await supabase.storage.from('lab-files').upload(filePath, file);
+
+            const { error: uploadError } = await supabase.storage
+                .from('lab-files')
+                .upload(filePath, file);
             if (uploadError) throw uploadError;
-            const { data } = supabase.storage.from('lab-files').getPublicUrl(filePath);
-            setValue('lab_file_url', data.publicUrl, { shouldValidate: true });
+
+            setValue('lab_file_url', filePath, { shouldValidate: true });
+
         } catch (error) {
             console.error('Error:', error);
             alert('Error al subir el archivo.');
