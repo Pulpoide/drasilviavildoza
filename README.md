@@ -71,7 +71,7 @@ dra-silvia-web
 You need to configure the following environment variables in a `.env.local` file:
 
 * `NEXT_PUBLIC_SUPABASE_URL`: Your Supabase project URL.
-* `NEXT_PUBLIC_SUPABASE_ANON_KEY`: Your Supabase anonymous key.
+* `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`: Your Supabase publishable key (used for signed URL generation with private bucket).
 * `NEXT_PUBLIC_WHATSAPP_NUMBER`: The official contact number for the medical office.
 
 ---
